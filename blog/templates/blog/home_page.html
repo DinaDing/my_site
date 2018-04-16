@@ -1,23 +1,25 @@
-
 <!DOCTYPE html>
 <html>
 <head>
- <title>Welcome to Sage's Blog</title>
+	<title>Welcome to MusicalsFavors</title>
 </head>
 <body>
- <!-- Site Header -->
- <h1>Hi. I am Sage. Welcome to my blog!</h1>
+<!-- jOur Site Header Goes Here -->
+<h1>Welcome to Musical Treats with Dina Ding</h1>
 
-<!-- Blog Post -->
- <h2>My First Blog Post</h2>
- <p>Here is my first blog post. One day at the mall....</p>
 
-<!-- Like And Comment -->
- <button>Like</button>
- <h2>Leave a Comment</h2>
- <form>
- <textarea placeholder="Please Enter Your Comment"></textarea>
- <input type="submit" value="Post Me!">
- </form>
+<!-- hgthghg -->
+<button>like</button>
+<h2>Are you a musical fans. Then welecome.</h2>
+<form>
+	{% csrf_token %}
+	<input type="text" placeholder="PLease type your username" name="">
+	<textarea placeholder="Type your comment"></textarea>
+	<input type="submit" value="Post Me!"><br>
+
+<img src="https://tse2-mm.cn.bing.net/th?id=OIP.SDM7ikRrtlnM8KOwzXAG2gHaDx&p=0&o=5&pid=1.1"><br>
+<img src="http://images2.fanpop.com/images/photos/3000000/Musicals-musicals-3099612-498-500.jpg">
+<h2>Comments</h2>
+ User {{username}} says: {{comment}}
 </body>
 </html>
